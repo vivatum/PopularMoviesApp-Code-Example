@@ -58,6 +58,8 @@
 		5A2A169C2498D1A700727C16 /* GenresLabelsFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2A169B2498D1A700727C16 /* GenresLabelsFactory.swift */; };
 		5A2A169D2498D1A700727C16 /* GenresLabelsFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2A169B2498D1A700727C16 /* GenresLabelsFactory.swift */; };
 		5A2A169E2498D1A700727C16 /* GenresLabelsFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2A169B2498D1A700727C16 /* GenresLabelsFactory.swift */; };
+		5A2A16A02498D37800727C16 /* MovieListDataSourceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2A169F2498D37800727C16 /* MovieListDataSourceTests.swift */; };
+		5A2A16A22498D38F00727C16 /* MovieListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2A16A12498D38F00727C16 /* MovieListViewModelTests.swift */; };
 		5AC5328D2496B344005E1EFE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5AC532912496B344005E1EFE /* Localizable.strings */; };
 		5AC5328E2496B344005E1EFE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5AC532912496B344005E1EFE /* Localizable.strings */; };
 		5AC5328F2496B344005E1EFE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5AC532912496B344005E1EFE /* Localizable.strings */; };
@@ -233,6 +235,8 @@
 		5A2A168C2498D14F00727C16 /* MoviewDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviewDetailsViewController.swift; sourceTree = "<group>"; };
 		5A2A168D2498D14F00727C16 /* CustomNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNavigationController.swift; sourceTree = "<group>"; };
 		5A2A169B2498D1A700727C16 /* GenresLabelsFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenresLabelsFactory.swift; sourceTree = "<group>"; };
+		5A2A169F2498D37800727C16 /* MovieListDataSourceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListDataSourceTests.swift; sourceTree = "<group>"; };
+		5A2A16A12498D38F00727C16 /* MovieListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewModelTests.swift; sourceTree = "<group>"; };
 		5AC532902496B344005E1EFE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		5AC532AE2496B463005E1EFE /* NoDataMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoDataMessage.swift; sourceTree = "<group>"; };
 		5AC532AF2496B463005E1EFE /* AppFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppFont.swift; sourceTree = "<group>"; };
@@ -548,6 +552,8 @@
 			children = (
 				5AC533562496BB0B005E1EFE /* MovieRequestHandlerTests.swift */,
 				5AC533582496BB89005E1EFE /* RequestServiceTests.swift */,
+				5A2A169F2498D37800727C16 /* MovieListDataSourceTests.swift */,
+				5A2A16A12498D38F00727C16 /* MovieListViewModelTests.swift */,
 				5AC533372496B94B005E1EFE /* TestHelpers */,
 				5AD10E1A2496A6490041CC12 /* Info.plist */,
 			);
@@ -833,6 +839,7 @@
 				5AC5331D2496B6D0005E1EFE /* AsyncOperation.swift in Sources */,
 				5AC533272496B6E6005E1EFE /* ImageLoadingService.swift in Sources */,
 				5AD10E472496ABB10041CC12 /* AppDelegate.swift in Sources */,
+				5A2A16A02498D37800727C16 /* MovieListDataSourceTests.swift in Sources */,
 				5AC532B72496B464005E1EFE /* AppFont.swift in Sources */,
 				5AC532F72496B651005E1EFE /* MovieDetails.swift in Sources */,
 				5AC532E62496B4D2005E1EFE /* DateExtension.swift in Sources */,
@@ -862,6 +869,7 @@
 				5AC533112496B6C6005E1EFE /* URLFactory.swift in Sources */,
 				5AC533142496B6C6005E1EFE /* MovieRequestHandler.swift in Sources */,
 				5AC532B42496B464005E1EFE /* NoDataMessage.swift in Sources */,
+				5A2A16A22498D38F00727C16 /* MovieListViewModelTests.swift in Sources */,
 				5AC532E02496B4D2005E1EFE /* UIApplicationExtension.swift in Sources */,
 				5AC533202496B6D0005E1EFE /* FetchMovieDetailsOperation.swift in Sources */,
 				5AC532DD2496B4D2005E1EFE /* UIImgeViewExtension.swift in Sources */,
