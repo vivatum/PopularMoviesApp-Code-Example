@@ -9,7 +9,8 @@
 import UIKit
 
 protocol GenresTextBuilderProtocol: class {
-    func getAttributedTextView(with genres: [String], completion: @escaping (Result<NSMutableAttributedString, BuilderError>) -> Void)
+    func getAttributedTextView(with genres: [String],
+                               completion: @escaping (Result<NSMutableAttributedString, BuilderError>) -> Void)
     var labelFactory: GenreLabelFactoryProtocol? { get set }
     var imagesFactory: GenreImagesFactoryProtocol? { get set }
     var attrTextFactory: AttributedTextFactoryProtocol? { get set }
