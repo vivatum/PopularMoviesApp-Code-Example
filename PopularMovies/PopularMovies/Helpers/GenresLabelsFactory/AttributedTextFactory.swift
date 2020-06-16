@@ -1,8 +1,8 @@
 //
 //  AttributedTextFactory.swift
-//  WordsAsTagLabels
+//  PopularMovies
 //
-//  Created by Volodymyr Vozniak on 12/06/2020.
+//  Created by Vivatum on 12/06/2020.
 //  Copyright © 2020 com.vivatum. All rights reserved.
 //
 
