@@ -26,6 +26,7 @@ final class MoviewDetailsViewController: UIViewController {
     private var panGesture: UIPanGestureRecognizer!
     private let iconSize: CGFloat = 18
     
+    private var genresBuilder: GenresTextBuilderProtocol?
     public var movieData: MovieDetails?
     
     
@@ -36,6 +37,7 @@ final class MoviewDetailsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        genresBuilder = GenresTextBuilder()
         setupRightNavButton()
         setupViewElements()
         populateView()
@@ -108,14 +110,18 @@ final class MoviewDetailsViewController: UIViewController {
         
         if let genres = movie.genres {
             DispatchQueue.global().sync {
-                let genresFactory = GenresLabelsFactory(wordsArray: genres)
-                let attrText = genresFactory.getGenresAttributedText()
-                DispatchQueue.main.async {
-                    self.genresTextView.attributedText = attrText
+                self.genresBuilder?.getAttributedTextView(with: genres) { result in
+                    switch result {
+                    case .success(let attrText):
+                        DispatchQueue.main.async {
+                            self.genresTextView.attributedText = attrText
+                        }
+                    case .failure(let error):
+                        DDLogInfo("Can't create GenreText with error: \(error.localizedDescription)")
+                    }
                 }
             }
         }
-        
         sizeToFitTextViews()
     }
     
