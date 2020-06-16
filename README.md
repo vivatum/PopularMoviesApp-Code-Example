@@ -2,7 +2,7 @@
 [![Swift Version][swift-image]][swift-url]
 
 
-This iOS app (Swift) was developed as a Technical Assignment as part of the recruitment process for the **iOS developer** role.
+This iOS app (Swift) was developed as a Technical Assignment as a part of the recruitment process for the **iOS developer** role.
 
 The App allows to get Playing-Now and Popular movie lists using the [TheMovieDB API](https://api.themoviedb.org).
 
