@@ -1,0 +1,36 @@
+//
+//  Localizable.strings
+//  PopularMovies
+//
+//  Created by Vivatum on 14/06/2020.
+//  Copyright © 2020 Włodzimierz Woźniak. All rights reserved.
+//
+
+// MARK: - Alerts
+
+"allert.button.ok" = "OK";
+"error.network.title" = "Network Error";
+"error.network.message" = "Check Internet connection please.";
+"error.fetching.data.title" = "Fetching Data Error";
+"error.fetching.data.message" = "Please try again later.";
+"error.bad.request.title" = "Bad Request";
+"error.bad.request.message" = "Please change your request.";
+
+
+// MARK: - No Data Messages
+"data.no.fetched" = "We couldn't fetch any Data now. \nTry again later please.";
+"data.no.loading" = "Loading...";
+
+
+// MARK: - Time
+"time.hour" = "h";
+"time.min" = "m";
+
+
+// MARK: - MovieListViewController
+"header.playing.now" = "Playing now";
+"header.popular" = "Most popular";
+
+
+// MARK: - MovieDetailsViewController
+"overview.titile" = "Overview";
