@@ -2,7 +2,7 @@
 //  RequestServiceTests.swift
 //  PopularMoviesTests
 //
-//  Created by Volodymyr Vozniak on 14/06/2020.
+//  Created by Vivatum on 14/06/2020.
 //  Copyright © 2020 Włodzimierz Woźniak. All rights reserved.
 //
 
