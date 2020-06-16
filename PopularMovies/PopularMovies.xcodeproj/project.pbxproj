@@ -194,6 +194,7 @@
 		5AD10E4A2496ABB60041CC12 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD10E032496A6470041CC12 /* SceneDelegate.swift */; };
 		5AD10E4D2496ABC40041CC12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AD10E0C2496A6490041CC12 /* LaunchScreen.storyboard */; };
 		5AD10E4E2496ABC50041CC12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AD10E0C2496A6490041CC12 /* LaunchScreen.storyboard */; };
+		5AF3B64C2498D9BB00765D69 /* ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF3B64B2498D9BB00765D69 /* ViewControllerTests.swift */; };
 		5AF8F36F2496AD4D00040E4D /* CocoaLumberjackSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 5AF8F36E2496AD4D00040E4D /* CocoaLumberjackSwift */; };
 /* End PBXBuildFile section */
 
@@ -287,6 +288,7 @@
 		5AD10E232496A6490041CC12 /* PopularMoviesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularMoviesUITests.swift; sourceTree = "<group>"; };
 		5AD10E252496A6490041CC12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5AD10E412496A9B10041CC12 /* LogFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogFormatter.swift; sourceTree = "<group>"; };
+		5AF3B64B2498D9BB00765D69 /* ViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -548,6 +550,7 @@
 				5AC533582496BB89005E1EFE /* RequestServiceTests.swift */,
 				5A2A169F2498D37800727C16 /* MovieListDataSourceTests.swift */,
 				5A2A16A12498D38F00727C16 /* MovieListViewModelTests.swift */,
+				5AF3B64B2498D9BB00765D69 /* ViewControllerTests.swift */,
 				5AC533372496B94B005E1EFE /* TestHelpers */,
 				5AD10E1A2496A6490041CC12 /* Info.plist */,
 			);
@@ -825,6 +828,7 @@
 				5AC5333E2496B95B005E1EFE /* JSONReader.swift in Sources */,
 				5AC532DA2496B4D2005E1EFE /* UIViewExtension.swift in Sources */,
 				5A2A169D2498D1A700727C16 /* GenresLabelsFactory.swift in Sources */,
+				5AF3B64C2498D9BB00765D69 /* ViewControllerTests.swift in Sources */,
 				5AD10E492496ABB50041CC12 /* SceneDelegate.swift in Sources */,
 				5A2A16982498D14F00727C16 /* CustomNavigationController.swift in Sources */,
 				5AC532C62496B4B4005E1EFE /* AlertHelper.swift in Sources */,
