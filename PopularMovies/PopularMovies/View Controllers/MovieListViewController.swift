@@ -109,7 +109,7 @@ extension MovieListViewController: MovieViewModelDelegate {
         DispatchQueue.main.async {
             self.noDataView?.message = noDataMessage
             guard let indexPathsToReload = newIndexPathsToReload else {
-                self.tableView.reloadData()
+                self.tableView.reloadSections(IndexSet(integer: 1), with: .none)
                 return
             }
             if !indexPathsToReload.isEmpty {
