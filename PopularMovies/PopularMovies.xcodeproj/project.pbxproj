@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5A1A46762498E1720047E84C /* GenreLabelParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1A46752498E1720047E84C /* GenreLabelParameters.swift */; };
-		5A1A46772498E1720047E84C /* GenreLabelParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1A46752498E1720047E84C /* GenreLabelParameters.swift */; };
-		5A1A46782498E1720047E84C /* GenreLabelParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1A46752498E1720047E84C /* GenreLabelParameters.swift */; };
 		5A2A16552498CCBA00727C16 /* TitleHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A2A16532498CCBA00727C16 /* TitleHeaderView.xib */; };
 		5A2A16562498CCBA00727C16 /* TitleHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A2A16532498CCBA00727C16 /* TitleHeaderView.xib */; };
 		5A2A16572498CCBA00727C16 /* TitleHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A2A16532498CCBA00727C16 /* TitleHeaderView.xib */; };
@@ -195,21 +192,9 @@
 		5AD10E4D2496ABC40041CC12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AD10E0C2496A6490041CC12 /* LaunchScreen.storyboard */; };
 		5AD10E4E2496ABC50041CC12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AD10E0C2496A6490041CC12 /* LaunchScreen.storyboard */; };
 		5AF3B64C2498D9BB00765D69 /* ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF3B64B2498D9BB00765D69 /* ViewControllerTests.swift */; };
-		5AF3B64F2498DBDD00765D69 /* GenresTextBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF3B64E2498DBDD00765D69 /* GenresTextBuilder.swift */; };
-		5AF3B6502498DBDD00765D69 /* GenresTextBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF3B64E2498DBDD00765D69 /* GenresTextBuilder.swift */; };
-		5AF3B6512498DBDD00765D69 /* GenresTextBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF3B64E2498DBDD00765D69 /* GenresTextBuilder.swift */; };
-		5AF3B6552498DBEA00765D69 /* GenreLabelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF3B6522498DBEA00765D69 /* GenreLabelFactory.swift */; };
-		5AF3B6562498DBEA00765D69 /* GenreLabelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF3B6522498DBEA00765D69 /* GenreLabelFactory.swift */; };
-		5AF3B6572498DBEA00765D69 /* GenreLabelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF3B6522498DBEA00765D69 /* GenreLabelFactory.swift */; };
-		5AF3B6582498DBEA00765D69 /* AttributedTextFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF3B6532498DBEA00765D69 /* AttributedTextFactory.swift */; };
-		5AF3B6592498DBEA00765D69 /* AttributedTextFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF3B6532498DBEA00765D69 /* AttributedTextFactory.swift */; };
-		5AF3B65A2498DBEA00765D69 /* AttributedTextFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF3B6532498DBEA00765D69 /* AttributedTextFactory.swift */; };
-		5AF3B65B2498DBEA00765D69 /* GenreImagesFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF3B6542498DBEA00765D69 /* GenreImagesFactory.swift */; };
-		5AF3B65C2498DBEA00765D69 /* GenreImagesFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF3B6542498DBEA00765D69 /* GenreImagesFactory.swift */; };
-		5AF3B65D2498DBEA00765D69 /* GenreImagesFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF3B6542498DBEA00765D69 /* GenreImagesFactory.swift */; };
-		5AF3B65F2498DBF100765D69 /* GenreTextParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF3B65E2498DBF100765D69 /* GenreTextParameters.swift */; };
-		5AF3B6602498DBF100765D69 /* GenreTextParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF3B65E2498DBF100765D69 /* GenreTextParameters.swift */; };
-		5AF3B6612498DBF100765D69 /* GenreTextParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF3B65E2498DBF100765D69 /* GenreTextParameters.swift */; };
+		5AF795E3249CF2C200CD4226 /* GenresLabelsFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF795E2249CF2C200CD4226 /* GenresLabelsFactory.swift */; };
+		5AF795E4249CF2C200CD4226 /* GenresLabelsFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF795E2249CF2C200CD4226 /* GenresLabelsFactory.swift */; };
+		5AF795E5249CF2C200CD4226 /* GenresLabelsFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF795E2249CF2C200CD4226 /* GenresLabelsFactory.swift */; };
 		5AF8F36F2496AD4D00040E4D /* CocoaLumberjackSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 5AF8F36E2496AD4D00040E4D /* CocoaLumberjackSwift */; };
 /* End PBXBuildFile section */
 
@@ -231,7 +216,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5A1A46752498E1720047E84C /* GenreLabelParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreLabelParameters.swift; sourceTree = "<group>"; };
 		5A2A16532498CCBA00727C16 /* TitleHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TitleHeaderView.xib; sourceTree = "<group>"; };
 		5A2A16542498CCBA00727C16 /* TitleHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleHeaderView.swift; sourceTree = "<group>"; };
 		5A2A165B2498CCCB00727C16 /* RatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
@@ -304,11 +288,7 @@
 		5AD10E252496A6490041CC12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5AD10E412496A9B10041CC12 /* LogFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogFormatter.swift; sourceTree = "<group>"; };
 		5AF3B64B2498D9BB00765D69 /* ViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTests.swift; sourceTree = "<group>"; };
-		5AF3B64E2498DBDD00765D69 /* GenresTextBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenresTextBuilder.swift; sourceTree = "<group>"; };
-		5AF3B6522498DBEA00765D69 /* GenreLabelFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenreLabelFactory.swift; sourceTree = "<group>"; };
-		5AF3B6532498DBEA00765D69 /* AttributedTextFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttributedTextFactory.swift; sourceTree = "<group>"; };
-		5AF3B6542498DBEA00765D69 /* GenreImagesFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenreImagesFactory.swift; sourceTree = "<group>"; };
-		5AF3B65E2498DBF100765D69 /* GenreTextParameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenreTextParameters.swift; sourceTree = "<group>"; };
+		5AF795E2249CF2C200CD4226 /* GenresLabelsFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenresLabelsFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -425,7 +405,7 @@
 		5A2A169A2498D19F00727C16 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				5AF3B64D2498DB5800765D69 /* GenresLabelsFactory */,
+				5AF795E2249CF2C200CD4226 /* GenresLabelsFactory.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -617,19 +597,6 @@
 			path = Storyboards;
 			sourceTree = "<group>";
 		};
-		5AF3B64D2498DB5800765D69 /* GenresLabelsFactory */ = {
-			isa = PBXGroup;
-			children = (
-				5AF3B64E2498DBDD00765D69 /* GenresTextBuilder.swift */,
-				5AF3B6532498DBEA00765D69 /* AttributedTextFactory.swift */,
-				5AF3B6542498DBEA00765D69 /* GenreImagesFactory.swift */,
-				5AF3B6522498DBEA00765D69 /* GenreLabelFactory.swift */,
-				5AF3B65E2498DBF100765D69 /* GenreTextParameters.swift */,
-				5A1A46752498E1720047E84C /* GenreLabelParameters.swift */,
-			);
-			path = GenresLabelsFactory;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -799,9 +766,9 @@
 			files = (
 				5A2A16742498CCF200727C16 /* PlayingNowCollectionViewCell.swift in Sources */,
 				5AC533072496B6C6005E1EFE /* RequestFactory.swift in Sources */,
+				5AF795E3249CF2C200CD4226 /* GenresLabelsFactory.swift in Sources */,
 				5A2A167E2498D12300727C16 /* MovieListDataSource.swift in Sources */,
 				5AC532D32496B4D2005E1EFE /* DoubleExtension.swift in Sources */,
-				5AF3B6552498DBEA00765D69 /* GenreLabelFactory.swift in Sources */,
 				5AC532F02496B651005E1EFE /* PlayingNow.swift in Sources */,
 				5A2A165D2498CCCB00727C16 /* RatingView.swift in Sources */,
 				5A2A16812498D12300727C16 /* PlayingNowDataSource.swift in Sources */,
@@ -810,7 +777,6 @@
 				5AC533292496B6E6005E1EFE /* MovieFetchHelper.swift in Sources */,
 				5AC532BC2496B464005E1EFE /* AppColor.swift in Sources */,
 				5A2A16862498D13800727C16 /* MovieListViewModel.swift in Sources */,
-				5A1A46762498E1720047E84C /* GenreLabelParameters.swift in Sources */,
 				5A2A16942498D14F00727C16 /* MoviewDetailsViewController.swift in Sources */,
 				5AC532F32496B651005E1EFE /* PopularDetailsList.swift in Sources */,
 				5A2A16682498CCD500727C16 /* NoDataView.swift in Sources */,
@@ -830,7 +796,6 @@
 				5AC532DC2496B4D2005E1EFE /* UIImgeViewExtension.swift in Sources */,
 				5AC5330A2496B6C6005E1EFE /* RequestService.swift in Sources */,
 				5AC532C82496B4B4005E1EFE /* AlertMessage.swift in Sources */,
-				5AF3B64F2498DBDD00765D69 /* GenresTextBuilder.swift in Sources */,
 				5AC532B62496B464005E1EFE /* AppFont.swift in Sources */,
 				5AD10E022496A6470041CC12 /* AppDelegate.swift in Sources */,
 				5AC5333D2496B95B005E1EFE /* JSONReader.swift in Sources */,
@@ -839,7 +804,6 @@
 				5AC532FC2496B651005E1EFE /* RatingCircle.swift in Sources */,
 				5AC532E22496B4D2005E1EFE /* IntExtension.swift in Sources */,
 				5A2A166D2498CCE800727C16 /* PlayingNowTableViewCell.swift in Sources */,
-				5AF3B65B2498DBEA00765D69 /* GenreImagesFactory.swift in Sources */,
 				5AC532E52496B4D2005E1EFE /* DateExtension.swift in Sources */,
 				5AC533192496B6D0005E1EFE /* FetchPopularIdListOperation.swift in Sources */,
 				5AD10E042496A6470041CC12 /* SceneDelegate.swift in Sources */,
@@ -847,12 +811,10 @@
 				5AC5332C2496B6E6005E1EFE /* MovieListService.swift in Sources */,
 				5AC5331F2496B6D0005E1EFE /* FetchMovieDetailsOperation.swift in Sources */,
 				5AC532C52496B4B4005E1EFE /* AlertHelper.swift in Sources */,
-				5AF3B6582498DBEA00765D69 /* AttributedTextFactory.swift in Sources */,
 				5AC532D62496B4D2005E1EFE /* StringExtension.swift in Sources */,
 				5A2A16912498D14F00727C16 /* MovieListViewController.swift in Sources */,
 				5AC5331C2496B6D0005E1EFE /* AsyncOperation.swift in Sources */,
 				5AD10E422496A9B10041CC12 /* LogFormatter.swift in Sources */,
-				5AF3B65F2498DBF100765D69 /* GenreTextParameters.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -875,13 +837,11 @@
 				5AD10E472496ABB10041CC12 /* AppDelegate.swift in Sources */,
 				5A2A16A02498D37800727C16 /* MovieListDataSourceTests.swift in Sources */,
 				5AC532B72496B464005E1EFE /* AppFont.swift in Sources */,
-				5AF3B65C2498DBEA00765D69 /* GenreImagesFactory.swift in Sources */,
 				5AC532F72496B651005E1EFE /* MovieDetails.swift in Sources */,
 				5AC532E62496B4D2005E1EFE /* DateExtension.swift in Sources */,
 				5AC532E32496B4D2005E1EFE /* IntExtension.swift in Sources */,
 				5AC532BA2496B464005E1EFE /* ActionError.swift in Sources */,
 				5A2A16592498CCBA00727C16 /* TitleHeaderView.swift in Sources */,
-				5AF3B6592498DBEA00765D69 /* AttributedTextFactory.swift in Sources */,
 				5AC5332D2496B6E6005E1EFE /* MovieListService.swift in Sources */,
 				5AC532C02496B464005E1EFE /* DateFormatString.swift in Sources */,
 				5AC533352496B7BC005E1EFE /* Reachability.swift in Sources */,
@@ -892,20 +852,17 @@
 				5AC533472496B95B005E1EFE /* NetworkSessionMock.swift in Sources */,
 				5A2A16872498D13800727C16 /* MovieListViewModel.swift in Sources */,
 				5AC532F42496B651005E1EFE /* PopularDetailsList.swift in Sources */,
-				5AF3B6502498DBDD00765D69 /* GenresTextBuilder.swift in Sources */,
 				5AC5332A2496B6E6005E1EFE /* MovieFetchHelper.swift in Sources */,
 				5AC532D72496B4D2005E1EFE /* StringExtension.swift in Sources */,
 				5AC532D42496B4D2005E1EFE /* DoubleExtension.swift in Sources */,
 				5A2A167F2498D12300727C16 /* MovieListDataSource.swift in Sources */,
 				5AC533082496B6C6005E1EFE /* RequestFactory.swift in Sources */,
-				5AF3B6562498DBEA00765D69 /* GenreLabelFactory.swift in Sources */,
 				5AC532FA2496B651005E1EFE /* PopularIdList.swift in Sources */,
 				5AC533302496B6E6005E1EFE /* MovieDetailsFetcher.swift in Sources */,
 				5A2A165E2498CCCB00727C16 /* RatingView.swift in Sources */,
 				5A2A16952498D14F00727C16 /* MoviewDetailsViewController.swift in Sources */,
 				5AC533112496B6C6005E1EFE /* URLFactory.swift in Sources */,
 				5AC533142496B6C6005E1EFE /* MovieRequestHandler.swift in Sources */,
-				5AF3B6602498DBF100765D69 /* GenreTextParameters.swift in Sources */,
 				5AC532B42496B464005E1EFE /* NoDataMessage.swift in Sources */,
 				5A2A16A22498D38F00727C16 /* MovieListViewModelTests.swift in Sources */,
 				5AC532E02496B4D2005E1EFE /* UIApplicationExtension.swift in Sources */,
@@ -917,9 +874,9 @@
 				5AC533572496BB0B005E1EFE /* MovieRequestHandlerTests.swift in Sources */,
 				5AD10E432496A9B10041CC12 /* LogFormatter.swift in Sources */,
 				5AC5330B2496B6C6005E1EFE /* RequestService.swift in Sources */,
+				5AF795E4249CF2C200CD4226 /* GenresLabelsFactory.swift in Sources */,
 				5AC532C92496B4B4005E1EFE /* AlertMessage.swift in Sources */,
 				5AC532BD2496B464005E1EFE /* AppColor.swift in Sources */,
-				5A1A46772498E1720047E84C /* GenreLabelParameters.swift in Sources */,
 				5AC533592496BB89005E1EFE /* RequestServiceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -931,16 +888,14 @@
 				5AC5333F2496B95B005E1EFE /* JSONReader.swift in Sources */,
 				5A2A16762498CCF200727C16 /* PlayingNowCollectionViewCell.swift in Sources */,
 				5AC532DB2496B4D2005E1EFE /* UIViewExtension.swift in Sources */,
-				5AF3B6572498DBEA00765D69 /* GenreLabelFactory.swift in Sources */,
 				5A2A16802498D12300727C16 /* MovieListDataSource.swift in Sources */,
+				5AF795E5249CF2C200CD4226 /* GenresLabelsFactory.swift in Sources */,
 				5AD10E4A2496ABB60041CC12 /* SceneDelegate.swift in Sources */,
 				5AC532C72496B4B4005E1EFE /* AlertHelper.swift in Sources */,
-				5A1A46782498E1720047E84C /* GenreLabelParameters.swift in Sources */,
 				5AC5331E2496B6D0005E1EFE /* AsyncOperation.swift in Sources */,
 				5AC533282496B6E6005E1EFE /* ImageLoadingService.swift in Sources */,
 				5AD10E482496ABB20041CC12 /* AppDelegate.swift in Sources */,
 				5AC532B82496B464005E1EFE /* AppFont.swift in Sources */,
-				5AF3B65D2498DBEA00765D69 /* GenreImagesFactory.swift in Sources */,
 				5AC532F82496B651005E1EFE /* MovieDetails.swift in Sources */,
 				5A2A16882498D13800727C16 /* MovieListViewModel.swift in Sources */,
 				5A2A16992498D14F00727C16 /* CustomNavigationController.swift in Sources */,
@@ -956,10 +911,8 @@
 				5AC533482496B95B005E1EFE /* NetworkSessionMock.swift in Sources */,
 				5AC532F52496B651005E1EFE /* PopularDetailsList.swift in Sources */,
 				5AC5332B2496B6E6005E1EFE /* MovieFetchHelper.swift in Sources */,
-				5AF3B65A2498DBEA00765D69 /* AttributedTextFactory.swift in Sources */,
 				5AC532D82496B4D2005E1EFE /* StringExtension.swift in Sources */,
 				5AC532D52496B4D2005E1EFE /* DoubleExtension.swift in Sources */,
-				5AF3B6512498DBDD00765D69 /* GenresTextBuilder.swift in Sources */,
 				5A2A16902498D14F00727C16 /* MovieListTableViewDelegate.swift in Sources */,
 				5A2A16832498D12300727C16 /* PlayingNowDataSource.swift in Sources */,
 				5AC533092496B6C6005E1EFE /* RequestFactory.swift in Sources */,
@@ -972,7 +925,6 @@
 				5AC533152496B6C6005E1EFE /* MovieRequestHandler.swift in Sources */,
 				5AC532B52496B464005E1EFE /* NoDataMessage.swift in Sources */,
 				5A2A166A2498CCD500727C16 /* NoDataView.swift in Sources */,
-				5AF3B6612498DBF100765D69 /* GenreTextParameters.swift in Sources */,
 				5A2A165A2498CCBA00727C16 /* TitleHeaderView.swift in Sources */,
 				5AC532E12496B4D2005E1EFE /* UIApplicationExtension.swift in Sources */,
 				5A2A166F2498CCE800727C16 /* PlayingNowTableViewCell.swift in Sources */,
