@@ -12,7 +12,7 @@ The App allows to get Playing-Now and Popular movie lists using the [TheMovieDB 
 
 ## Version
 
-1.0
+1.1
 
 
 ## Requirements
